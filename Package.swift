@@ -23,7 +23,9 @@ let package = Package(
         // Core dependencies
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.0.0"),
         .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.0.0"),
-        .package(name: "secp256k1", url: "https://github.com/Boilertalk/secp256k1.swift.git", from: "0.1.1"),
+        
+        .package(name: "secp256k1", url: "https://github.com/GigaBitcoin/secp256k1.swift", exact: "0.10.0"),
+        // .package(name: "secp256k1", url: "https://github.com/Boilertalk/secp256k1.swift.git", from: "0.1.1"),
 
         // PromiseKit dependency
         .package(url: "https://github.com/mxcl/PromiseKit.git", from: "6.0.0"),
